@@ -1,0 +1,86 @@
+html {
+	height: 100%;
+	overflow-y: scroll;
+}
+body{
+	color: #333;
+	font: 16px Helvetica, Arial, Sans-Serif;
+
+	background-image: url('/img/background.jpg');
+	background-position: 50%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+#blur {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	opacity: 0.1;
+	filter:Alpha(Opacity=10);
+}
+#wrap {
+	position: absolute;
+	top: 12%;
+	left: 17%;
+	width: 380px;
+	margin: 0;
+	padding: 15px 10px 10px 20px;
+
+	line-height: 1.5em;
+	font-size: 20px;
+	color: #444;
+}
+
+@media only screen and (max-width: 767px) {
+	body {
+		background-image: none;
+	}
+	#blur {
+		display: none;
+	}
+	#wrap {
+		left: 50%;
+		margin-left: -205px;
+	}
+}
+
+header {
+	font-size: 22px;
+	font-weight: bold;
+}
+header span.hello {
+	display: block;
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: rgb(169, 54, 41);
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	color: rgb(169, 54, 41);
+}
+
+footer {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+
+	font-size: 12px;
+}
+footer a, footer a:link, footer a:visited {
+	color: #ccc;
+	text-shadow: 1px 1px 1px #000;
+}
+footer a:hover {
+	border-bottom: 1px dotted #777;
+}
