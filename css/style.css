@@ -1,12 +1,12 @@
 html {
 	height: 100%;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 body{
 	color: #333;
 	font: 16px Helvetica, Arial, Sans-Serif;
 
-	background-image: url('/img/background.jpg');
+	background-image: url('/img/background.min.jpg');
 	background-position: 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
