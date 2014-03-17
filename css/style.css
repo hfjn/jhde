@@ -4,8 +4,7 @@ html {
 }
 body{
 	color: #333;
-	font: 16px Helvetica, Arial, Sans-Serif;
-
+	font: 16px 'Open Sans', sans-serif;
 	background-image: url('/img/background.jpg');
 	background-position: 50%;
 	background-attachment: fixed;
@@ -29,14 +28,16 @@ body{
 	left: 17%;
 	width: 380px;
 	margin: 0;
-	padding: 15px 10px 10px 20px;
-
+	padding: 20px 10px 10px 20px;
 	line-height: 1.5em;
 	font-size: 20px;
 	color: #444;
+	background: #008080; /* Fallback IE 6-8 */
+	background: rgba(123, 123, 123, .4);
+	border-radius: 7px;
 }
 
-@media only screen and (max-width: 767px) {
+ia only screen and (max-width: 767px) {
 	body {
 		background-image: none;
 	}
