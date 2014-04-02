@@ -18,7 +18,7 @@ body{
 	bottom: 0;
 	background: #fff;
 	opacity: 0.5;
-	filter:Alpha(Opacity=10);
+	filter:Alpha(Opacity=50);
 }
 #wrap {
 	position: absolute;
@@ -51,7 +51,7 @@ h1.hello {
 a {
 	font-weight: bold;
 	text-decoration: none;
-	color: #a7a7a7;
+	color: #a3a3a3;
 }
 a:hover{
 	color: #FF4136;
